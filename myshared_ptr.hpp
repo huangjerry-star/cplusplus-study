@@ -10,7 +10,7 @@ public:
     //构造函数
     myshared_ptr(T *_ptr) : ptr(_ptr)
     {
-        if (ptr!=nullptr)
+        if (ptr)
         {
             count = new int(1);
         }
